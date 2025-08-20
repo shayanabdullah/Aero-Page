@@ -3,3 +3,55 @@
 ::-webkit-scrollbar{
     width: 0;
 }
+
+.container, .container-sm {
+    max-width: 1200px !important;
+}
+
+
+@media (min-width:320px) and (max-width:450px) {
+    .logo{
+        width: 170px;
+    }
+}
+
+
+@media (max-width:991px) {
+    .hero{
+        padding: 64px 0;
+    }
+
+    .btn-box{
+        justify-content: center;
+    }
+
+    .nav-ul{
+        text-align: center;
+    }
+
+    .banner-text h1{
+      padding-top: 30px;
+      padding-bottom: 20px;
+        margin: 0 !important;
+    }
+    .banner-text p{
+      padding-bottom: 30px;
+        margin: 0 !important;
+    }
+    .banner-text{
+        padding: 0 20px;
+    }
+
+    .cards{
+        justify-content: center;
+    }
+}
+
+.right{
+    border-left: 1px solid #FAD0BC;
+}
+
+.card-my{
+    border: 2px solid #FAD0BC ;
+    border-radius: 20px;
+}
