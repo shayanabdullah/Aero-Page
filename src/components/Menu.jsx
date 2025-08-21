@@ -20,7 +20,7 @@ const Menu = () => {
             <Nav.Link href="#link" className='font-[REM] text-[16px]! text-[#0B0B0B]! font-medium hover:text-[#EA580C]! duration-300'>Service</Nav.Link>
             <Nav.Link href="#link" className='font-[REM] text-[16px]! text-[#0B0B0B]! font-medium hover:text-[#EA580C]! duration-300'>Contact</Nav.Link>
           </Nav> 
-            <div className="flex w-full! justify-end">
+            <div className="flex w-full! lg:justify-end md:justify-center sm:justify-center justify-center">
             <Buttons  img={buttnLogo}  text='Download' className="py-[14px] px-[45px] flex items-center gap-x-[27px] rounded-[20px]! hover:bg-transparent duration-300 hover:text-black! border-2! border-white! border-solid hover:border-[#EA580C]! "/>
             </div>
         </Navbar.Collapse>

@@ -30,10 +30,10 @@ const Hero = () => {
                         </Col>
                 </Row>
             </div>
-            <div className="cards flex lg:gap-x-[52px] flex-wrap gap-y-[50px]">
-            <Images src={card}/>
-            <Images src={card}/>
-            <Images src={card}/>
+            <div className="cards flex lg:gap-x-[52px] md:gap-x-[20px] flex-wrap gap-y-[50px]">
+             <Cards/>
+             <Cards/>
+             <Cards/>
             <Cards/>
             <Cards/>
             <Cards/>    
